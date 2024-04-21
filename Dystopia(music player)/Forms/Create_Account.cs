@@ -91,7 +91,7 @@ namespace Dystopia_music_player_.Forms
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
-            System.Net.NetworkCredential nc = new System.Net.NetworkCredential("florinstan606@gmail.com", "yzqelcevjlwfkovo");
+            System.Net.NetworkCredential nc = new System.Net.NetworkCredential("email", "code");
             //System.Net.NetworkCredential nc = new System.Net.NetworkCredential("un_gmail", "parola_de_securitate");
             smtp.Credentials = nc;
             smtp.EnableSsl = true;
